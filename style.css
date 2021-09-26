@@ -1,21 +1,3 @@
-em
-{
-    color: red;
-    
-}
-h1
-{
-    font-size: 5em;
-    text-align:center;
-    text-decoration-line:underline;
-    display:inline /*Pour que la bordure se mette uniquement sur le texte, problèmes avec h1,2,3*/
-}
-
-p
-{
-  font-size: x-large;
-}
-
 *
 {
     
@@ -23,6 +5,34 @@ font-family: 'arialblack';
     color:white
 
 }
+
+h1
+{
+    font-size: 5em;
+    text-align:center;
+    text-decoration-line:underline; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    border: 0.188em, solid;
+    color:#a1d4f1
+}
+
+
+
+
+
+em
+{
+    color: red;
+    
+}
+
+
+p
+{
+  font-size: x-large;
+}
+
 
 
 .Manu
@@ -44,21 +54,7 @@ font-family: 'arialblack';
       color: green;
       font-family:sans-serif;
 }  
-
-    
-
-h1
-
-{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align:center;
-    font-weight:bold;
-    border: 0.188em, solid;
-    color:#a1d4f1
-
-} 
-
-/*Suffit juste que je mette une virgule pour ajouter*/    
+   
 
 
 .fleche-gauche
@@ -82,8 +78,8 @@ h1
 body
 
 {
-    text-align:left;
     background-color:#243846;
+    text-align:left;
     opacity:0.9;
 }
 
@@ -146,5 +142,3 @@ color:#E85109;
     font-size:4.375em;
     color:#E85109
 }
-
-
