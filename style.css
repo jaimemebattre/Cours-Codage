@@ -1,0 +1,168 @@
+em
+{
+    color: red;
+    
+}
+h1
+{
+    font-size: 5em;
+    text-align:center;
+    border-radius:0.625em;
+    background-color:black;
+    display:inline /*Pour que la bordure se mette uniquement sur le texte, problèmes avec h1,2,3*/
+}
+
+p
+{
+  font-size: x-large;
+}
+
+*
+{
+    
+font-family: 'arialblack';
+    color:white
+
+}
+
+
+.Manu
+{
+    
+    font-size: 5em;
+    color:red;
+
+
+}
+
+
+
+
+.exemple
+
+{
+
+      color: green;
+      font-family:sans-serif;
+}  
+
+    
+
+h1
+
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-weight:bold;
+    border: 0.188em, solid;
+    color:#a1d4f1
+
+} 
+
+/*Suffit juste que je mette une virgule pour ajouter*/    
+
+
+.fleche-gauche
+{
+ 
+    font-weight:bold;
+
+}
+
+
+
+
+.classe
+{ 
+    text-decoration-line:underline;
+    font-weight:bold;
+    color:gold;
+
+}
+
+body
+
+{
+    background-color:#111921;
+    opacity:0.8
+}
+
+    
+
+
+.honte
+{ 
+
+    float:right
+}
+
+
+.NOTE_OSS_1
+
+{ 
+    font-size: xx-large
+
+}
+
+
+.NOTE_OSS_2
+
+{
+    font-size: xx-large
+
+}
+
+body
+
+{ 
+    background-image: url("fond/wallpaper_oss.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat; /* pour éviter que mon fond d'écran se multiplie*/
+    background-position:right;
+}
+
+.Le_Top_2
+
+{
+    text-align:left;
+    font-size: 2,5em;
+    text-decoration-line:underline;
+    color:#E85109
+}
+
+.Le_top_1
+
+{
+
+font-size: xx-large;
+color:#E85109;
+
+}
+
+.Mon_Avis_ancre
+
+{ 
+    font-size: xx-large;
+    color:#E85109;
+
+}
+
+
+
+.Sommaire
+
+{
+    text-decoration-line:underline;
+    font-size:4.375em;
+    color:#E85109
+}
+
+
+.Mon_Avis2
+{
+    font-size: 2.5em;
+    color:#E85109;
+    text-decoration-line:underline;
+}
+
+
