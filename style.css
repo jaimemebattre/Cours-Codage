@@ -7,8 +7,7 @@ h1
 {
     font-size: 5em;
     text-align:center;
-    border-radius:0.625em;
-    background-color:black;
+    text-decoration-line:underline;
     display:inline /*Pour que la bordure se mette uniquement sur le texte, problèmes avec h1,2,3*/
 }
 
@@ -83,11 +82,10 @@ h1
 body
 
 {
-    background-color:#111921;
-    opacity:0.8
+    text-align:left;
+    background-color:#243846;
+    opacity:0.9;
 }
-
-    
 
 
 .honte
@@ -97,7 +95,7 @@ body
 }
 
 
-.NOTE_OSS_1
+.NOTE_OSS_1, .NOTE_OSS_2
 
 { 
     font-size: xx-large
@@ -105,23 +103,7 @@ body
 }
 
 
-.NOTE_OSS_2
-
-{
-    font-size: xx-large
-
-}
-
-body
-
-{ 
-    background-image: url("fond/wallpaper_oss.jpg");
-    background-attachment: fixed;
-    background-repeat:no-repeat; /* pour éviter que mon fond d'écran se multiplie*/
-    background-position:right;
-}
-
-.Le_Top_2
+.Le_Top_2, ul
 
 {
     text-align:left;
@@ -133,7 +115,7 @@ body
 .Le_top_1
 
 {
-
+text-align:left;
 font-size: xx-large;
 color:#E85109;
 
@@ -148,6 +130,14 @@ color:#E85109;
 }
 
 
+.Mon_Avis2
+{
+    font-size: 2.5em;
+    color:#E85109;
+    text-decoration-line:underline;
+}
+
+
 
 .Sommaire
 
@@ -155,14 +145,6 @@ color:#E85109;
     text-decoration-line:underline;
     font-size:4.375em;
     color:#E85109
-}
-
-
-.Mon_Avis2
-{
-    font-size: 2.5em;
-    color:#E85109;
-    text-decoration-line:underline;
 }
 
 
