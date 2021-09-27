@@ -17,9 +17,23 @@ h1
     color:#a1d4f1
 }
 
+a:hover
+{
+    text-decoration-style:solid;
+    color: RED;
+}
 
+a:active
 
+{
+    background-color:red;
+}
 
+a:visited
+
+{
+    color: #E85109;
+}
 
 em
 {
