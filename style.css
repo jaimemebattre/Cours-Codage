@@ -17,24 +17,29 @@ h1
     color:#a1d4f1
 }
 
-a:hover
+a:hover /* Quand on pointe sur un paragraphe */
 {
-    text-decoration-style:solid;
-    color: RED;
+    font-style:oblique;
+    color:yellow;
 }
 
-a:active
+a:active /* Quand le visiteur clique sur le lien */
 
 {
-    background-color:red;
+    background-color:blue;
 }
 
-a:visited
+a:visited /* Quand le visiteur a déjà vu la page concernée */
 
 {
-    color: #E85109;
+    color: #fa0101;
 }
 
+a:focus /* Quand le visiteur sélectionne le lien */
+
+{
+    Background-color:rgb(97, 54, 54);
+}
 em
 {
     color: red;
