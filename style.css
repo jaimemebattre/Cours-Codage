@@ -17,11 +17,6 @@ h1
     color:#a1d4f1
 }
 
-a:hover /* Quand on pointe sur un paragraphe */
-{
-    font-style:oblique;
-    color:yellow;
-}
 
 a:active /* Quand le visiteur clique sur le lien */
 
@@ -33,6 +28,12 @@ a:visited /* Quand le visiteur a déjà vu la page concernée */
 
 {
     color: #fa0101;
+}
+
+a:hover  /* Quand on pointe sur un paragraphe */
+{
+    font-style:oblique;
+    color:yellow;
 }
 
 a:focus /* Quand le visiteur sélectionne le lien */
